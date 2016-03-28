@@ -1,0 +1,32 @@
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+    </style>
+
+    <!--style for widget_audio-->
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="FormListSeparatorTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:background">@drawable/list_section_divider_holo_custom</item>
+        <item name="android:textAppearance">@style/SectionHeaderStyle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingTop">4dip</item>
+        <item name="android:paddingBottom">-8dip</item>
+        <item name="android:layout_marginBottom">-4dip</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SectionHeaderStyle"
+        parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">14sp</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">#363636</item>
+    </style>
+</resources>

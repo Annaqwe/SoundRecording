@@ -1,0 +1,23 @@
+<resources>
+    <dimen name="list_section_divider_min_height">32dip</dimen>
+    <dimen name="editor_padding_top">0dip</dimen>
+    <dimen name="editor_round_button_padding_left">8dip</dimen>
+    <dimen name="editor_round_button_padding_right">8dip</dimen>
+    <dimen name="editor_round_button_padding_top">8dip</dimen>
+    <dimen name="editor_round_button_padding_bottom">8dip</dimen>
+    <dimen name="editor_add_field_label_left_padding">16dip</dimen>
+    <dimen name="editor_type_label_width">100dip</dimen>
+    <dimen name="editor_field_left_padding">2dip</dimen>
+    <dimen name="editor_field_right_padding">8dip</dimen>
+    <dimen name="editor_min_line_item_height">48dip</dimen>
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_diff_large_small">6sp</dimen>
+    <dimen name="speaker_image_size">48dp</dimen>
+    <dimen name="speaker_image_padding">8dp</dimen>
+    <dimen name="sandbox_company_image_size">100dp</dimen>
+</resources>

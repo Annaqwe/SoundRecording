@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/audio_path_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="4dp"
+        android:scaleType="center"
+        android:text="名称"
+        android:textSize="10sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:indeterminateOnly="false"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:progressDrawable="@drawable/form_widget_audio_progress_bar" />
+
+    <ImageButton
+        android:id="@+id/bt_play_audio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="12dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/form_widget_audio_play"
+        android:gravity="bottom|center_horizontal" />
+
+    <ImageButton
+        android:id="@+id/child_remove"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="top|right"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="2dp"
+        android:background="?android:selectableItemBackground"
+        android:contentDescription="删除"
+        android:padding="5dp"
+        android:scaleType="center"
+        android:src="@drawable/form_widget_audio_minus" />
+</FrameLayout>

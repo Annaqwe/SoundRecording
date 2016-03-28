@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">widget</string>
+    <string name="click_start_record">&#160;点击录音</string>
+    <string name="record_ing">&#160;正在录音</string>
+    <string name="time_not_enough_for_record">时间太短&#160;&#160;&#160;录音失败</string>
+    <string name="config_delete">确定删除该段录音吗？</string>
+    <string name="config_ok">是</string>
+    <string name="config_cancel">否</string>
+    <string name="empty_directory">空文件夹</string>
+    <string name="storage_removed">存储设备已移除或未被挂载</string>
+    <string name="choose_file">选择文件</string>
+    <string name="error_selecting_file">选择文件发生错误</string>
+    <string name="internal_storage">内部存储</string>
+    <string name="sd_card_fail_open">当前SD卡不可用!</string>
+    <string name="file_not_exit">当前文件不存在!</string>
+</resources>

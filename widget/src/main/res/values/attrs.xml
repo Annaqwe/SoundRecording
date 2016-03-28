@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="MyAudio">
+        <attr name="my_title" format="string"></attr>
+    </declare-styleable>
+
+</resources>
